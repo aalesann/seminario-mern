@@ -1,0 +1,14 @@
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+ background: url('/img/imagenes-para-whatsapp-en-hd-2.jpg');
+}
+
+
+#messages { list-style-type: none; margin: 0; padding: 0; }
+
+#messages li { 
+    padding: 5px 5px;
+    font-weight: 900;
+}
+
+#messages { margin-bottom: 40px }

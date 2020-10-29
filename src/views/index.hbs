@@ -1,0 +1,30 @@
+{{!-- Encabezado --}}
+<div class="row d-flex justify-content-center align-items-center  mt-5">
+ 
+    <h1 class="display-5 font-weight-2 text-white">Go to Chat!</h1>
+  
+</div>
+
+{{!-- fila del cuadro de mensajes enviados --}}
+<div class="row d-flex justify-content-center align-items-center">
+  <div class="col-md-5 py-3 px-3 border alert-primary" id="navbar-expample2">
+    <ul id="messages"></ul>
+  </div>
+</div>
+
+{{!-- Fila del formulario --}}
+<div class="row d-flex justify-content-center align-items-center my-2">
+  <div class="col-md-5 py-3 px-3 border border-primary">
+    <form onsubmit="return addMessage(this)" class="fixed position-relative px-3 py-3">
+        <div class="form-group">
+        <input type="text" class="form-control" id="username" placeholder="Tu Nombre">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="texto" placeholder="Cuéntanos algo...">
+      </div>
+      <button type="submit" class="btn btn-primary my-3">
+        Enviar
+      </button>
+    </form>
+  </div>
+</div>
